@@ -102,8 +102,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcessoDB\AcessoBanco.cs" />
+    <Compile Include="Controller\CidadeController.cs" />
     <Compile Include="Controller\EstadoController.cs" />
     <Compile Include="DAO\EstadoDAO.cs" />
+    <Compile Include="Model\CidadeModel.cs" />
     <Compile Include="Model\EstadoModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
