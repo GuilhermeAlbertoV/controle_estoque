@@ -26,7 +26,7 @@ namespace ControleEstoque.Model
         }
 
         public int IdCidade { get => idCidade; set => idCidade = value; }
-        public string NolmeCidade { get => nomecidade; set => nomecidade = value; }
+        public string NomeCidadde { get => nomecidade; set => nomecidade = value; }
         public EstadoModel EstadoModel { get => estadoModel; set => estadoModel = value; }
 
     }

@@ -85,5 +85,25 @@ namespace ControleEstoque.Controller
 
         }
 
+
+        public DataTable PreencherCboEstado(ComboBox cbo)
+        {
+            try
+            {
+                if(estadoDAO == null)
+                {
+                    estadoDAO = new EstadoDAO();
+                }
+                cbo.DataSource = estadoDAO.ObterTodosEstados();
+                cbo.DisplayMember = "NomeEstado";
+                cbo.ValueMember = "IdEstado";
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
     }
 }
